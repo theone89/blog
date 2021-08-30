@@ -151,7 +151,7 @@
       </div>
       @else
 
-      <div class="md:hidden" id="mobile-menu"  >
+      <div class="md:hidden" id="mobile-menu" x-show="open" x-on:click.away="open = false" >
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Login</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Cerrar session</a>
       </div>
