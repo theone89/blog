@@ -25,7 +25,7 @@ class PostFactory extends Factory
     public function definition()
     {
 
-        $name = $this->faker->unique()->sentence(20);
+        $name = $this->faker->unique()->sentence(10);
 
         return [
             'name' => $name,
