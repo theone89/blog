@@ -52,7 +52,12 @@
 @stop
 
 @section('js')
+
+    <script src="{{asset('vendor/ckeditor/ckeditor5-build-classic/build/ckeditor.js')}}"></script>
+
+
     <script src="{{ asset('vendor/jQuery-Plugin-stringToSlug-1.3/jquery.stringToSlug.min.js') }}"></script>
+
 
     <script>
         $(document).ready(function() {
@@ -62,5 +67,13 @@
                 space: '-'
             });
         });
+
+        ClassicEditor
+        .create( document.querySelector( '#extract' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+
+
     </script>
 @endsection
