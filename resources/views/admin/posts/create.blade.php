@@ -27,12 +27,27 @@
                 <p class="font-weight-bold">Etiquetas</p>
                 @foreach ($tags as $tag)
 
-                <label for="" class="mr-2">
-                    {!! Form::checkbox('tags[]', $tag->identify, null) !!}
-                    {{$tag->name}}
-                </label>
+                    <label for="" class="mr-2">
+                        {!! Form::checkbox('tags[]', $tag->identify, null) !!}
+                        {{ $tag->name }}
+                    </label>
 
                 @endforeach
+            </div>
+
+            <div class="from-gruop">
+                <p class="font-weight-bold">Estado</p>
+
+                <label>
+                    {!! Form::radio('status', 1, true) !!}
+                    Borrador
+                </label>
+                <label>
+                    {!! Form::radio('status', 2) !!}
+                    Publicado
+                </label>
+
+
             </div>
             <div class="form-group">
                 {!! Form::label('extract', 'Extracto:') !!}
@@ -53,7 +68,7 @@
 
 @section('js')
 
-    <script src="{{asset('vendor/ckeditor/ckeditor5-build-classic/build/ckeditor.js')}}"></script>
+    <script src="{{ asset('vendor/ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
 
 
     <script src="{{ asset('vendor/jQuery-Plugin-stringToSlug-1.3/jquery.stringToSlug.min.js') }}"></script>
@@ -69,11 +84,9 @@
         });
 
         ClassicEditor
-        .create( document.querySelector( '#extract' ) )
-        .catch( error => {
-            console.error( error );
-        } );
-
-
+            .create(document.querySelector('#extract'))
+            .catch(error => {
+                console.error(error);
+            });
     </script>
 @endsection
