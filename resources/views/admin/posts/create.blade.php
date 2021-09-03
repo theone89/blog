@@ -7,7 +7,44 @@
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+    <div class="card">
+        <div class="card-body">
+            {!! Form::open(['route' => 'admin.posts.store', 'autocomplete' => 'off']) !!}
+
+            <div class="form-group">
+                {!! Form::label('name', 'Nombre:') !!}
+                {!! Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el nombre del post']) !!}
+            </div>
+            <div class="form-group">
+                {!! Form::label('slug', 'Slug:') !!}
+                {!! Form::text('slug', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el slug del post']) !!}
+            </div>
+            <div class="form-group">
+                {!! Form::label('slug', 'Slug:') !!}
+                {!! Form::select('category_id', $categories, null, ['class' => 'form-control']) !!}
+            </div>
+            <div class="form-group">
+                <p class="font-weight-bold">Etiquetas</p>
+                @foreach ($tags as $tag)
+
+                <label for="" class="mr-2">
+                    {!! Form::checkbox('tags[]', $tag->identify, null) !!}
+                    {{$tag->name}}
+                </label>
+
+                @endforeach
+            </div>
+            <div class="form-group">
+                {!! Form::label('extract', 'Extracto:') !!}
+                {!! Form::textarea('extract', null, ['class' => 'form-control']) !!}
+            </div>
+            <div class="form-group">
+                {!! Form::label('body', 'Body:') !!}
+                {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
+            </div>
+            {!! Form::submit('Crear Post', ['class' => 'btn btn-primary']) !!}
+        </div>
+    </div>
 @stop
 
 @section('css')
@@ -15,5 +52,15 @@
 @stop
 
 @section('js')
-    <script> console.log('Hi!'); </script>
-@stop
+    <script src="{{ asset('vendor/jQuery-Plugin-stringToSlug-1.3/jquery.stringToSlug.min.js') }}"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#name").stringToSlug({
+                setEvents: 'keyup keydown blur',
+                getPut: '#slug',
+                space: '-'
+            });
+        });
+    </script>
+@endsection
