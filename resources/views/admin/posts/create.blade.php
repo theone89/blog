@@ -20,7 +20,7 @@
                 {!! Form::text('slug', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el slug del post']) !!}
             </div>
             <div class="form-group">
-                {!! Form::label('slug', 'Slug:') !!}
+                {!! Form::label('slug', 'Categoria:') !!}
                 {!! Form::select('category_id', $categories, null, ['class' => 'form-control']) !!}
             </div>
             <div class="form-group">
@@ -58,6 +58,7 @@
                 {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
             </div>
             {!! Form::submit('Crear Post', ['class' => 'btn btn-primary']) !!}
+            {!! Form::close() !!}
         </div>
     </div>
 @stop
@@ -85,6 +86,12 @@
 
         ClassicEditor
             .create(document.querySelector('#extract'))
+            .catch(error => {
+                console.error(error);
+            });
+
+        ClassicEditor
+            .create(document.querySelector('#body'))
             .catch(error => {
                 console.error(error);
             });

@@ -6,7 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Models\Category;
-use App\Models\Tag;
+use App\Models\Tag ;
+
 
 class PostController extends Controller
 {
@@ -44,7 +45,15 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       return $request->file('file');
+
+       $post = Post::create($request->all());
+
+       if($request->tags){
+           $post->tags()->attach($request->tags);
+
+       }
+       return redirect()->return('admin.post.edit', $post);
     }
 
     /**
