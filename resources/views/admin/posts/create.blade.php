@@ -9,20 +9,39 @@
 @section('content')
     <div class="card">
         <div class="card-body">
+
             {!! Form::open(['route' => 'admin.posts.store', 'autocomplete' => 'off']) !!}
+
+            {!! Form::hidden('user_id', auth()->user()->id) !!}
 
             <div class="form-group">
                 {!! Form::label('name', 'Nombre:') !!}
                 {!! Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el nombre del post']) !!}
             </div>
+
+            @error('name')
+                <small class="text-danger">{{$message}}</small>
+            @enderror
+
             <div class="form-group">
                 {!! Form::label('slug', 'Slug:') !!}
-                {!! Form::text('slug', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el slug del post']) !!}
+                {!! Form::text('slug', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el slug del post', 'readonly']) !!}
             </div>
+
+
+            @error('slug')
+                <small class="text-danger">{{ $message }}</small>
+            @enderror
+
             <div class="form-group">
-                {!! Form::label('slug', 'Categoria:') !!}
+                {!! Form::label('category_id', 'Categoria:') !!}
                 {!! Form::select('category_id', $categories, null, ['class' => 'form-control']) !!}
             </div>
+
+            @error('category_id')
+                <small class="text-danger">{{ $message }}</small>
+            @enderror
+
             <div class="form-group">
                 <p class="font-weight-bold">Etiquetas</p>
                 @foreach ($tags as $tag)
@@ -33,6 +52,14 @@
                     </label>
 
                 @endforeach
+
+
+
+                @error('tags')
+                <br>
+                    <small class="text-danger">{{ $message }}</small>
+                @enderror
+
             </div>
 
             <div class="from-gruop">
@@ -48,17 +75,34 @@
                 </label>
 
 
+                @error('status')
+
+                <br>
+                    <small class="text-danger">{{ $message }}</small>
+                @enderror
+
             </div>
             <div class="form-group">
                 {!! Form::label('extract', 'Extracto:') !!}
                 {!! Form::textarea('extract', null, ['class' => 'form-control']) !!}
             </div>
+
+            @error('extract')
+                <small class="text-danger">{{ $message }}</small>
+            @enderror
+
             <div class="form-group">
                 {!! Form::label('body', 'Body:') !!}
                 {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
             </div>
+
+            @error('body')
+                <small class="text-danger">{{ $message }}</small>
+            @enderror
+
             {!! Form::submit('Crear Post', ['class' => 'btn btn-primary']) !!}
-            {!! Form::close() !!}
+
+           {!! Form::close() !!}
         </div>
     </div>
 @stop
