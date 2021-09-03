@@ -13,7 +13,11 @@ class PostsIndex extends Component
 
     protected $paginationTheme = "bootstrap";
 
-    public  $search="sad";
+    public  $search;
+
+    public function updatingSearch(){
+        $this->resetPage();
+    }
 
     public function render()
     {
@@ -22,7 +26,7 @@ class PostsIndex extends Component
         $posts = Post::where('user_id', auth()->user()->id)
                     ->where('name', 'LIKE' , '%'. $this->search .'%')
                     ->latest('id')
-                    ->paginate();
+                    ->paginate(3);
 
         return view('livewire.admin.posts-index', compact('posts'));
     }
