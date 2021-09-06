@@ -7,7 +7,7 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Tag ;
-use App\Http\Requests\StorePostRequest;
+use App\Http\Requests\StorePosrRequest;
 
 class PostController extends Controller
 {
@@ -43,9 +43,9 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorePostRequest $request)
+    public function store(StorePosrRequest $request)
     {
-       return $request->file('file');
+
 
        $post = Post::create($request->all());
 
@@ -54,6 +54,7 @@ class PostController extends Controller
 
        }
        return redirect()->route('admin.posts.edit', $post);
+
     }
 
     /**

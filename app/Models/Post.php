@@ -10,7 +10,7 @@ class Post extends Model
     use HasFactory;
 
 
-    protected $guarded = ['id', 'create_at', 'update_at'];
+    protected $guarded = ['id', 'create_at', 'updated_at'];
 
     //relacion uno a muchos inversa
 
