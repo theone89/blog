@@ -48,7 +48,7 @@
                 @foreach ($tags as $tag)
 
                     <label for="" class="mr-2">
-                        {!! Form::checkbox('tags[]', $tag->identify, null) !!}
+                        {!! Form::checkbox('tags[]', $tag->id, null) !!}
                         {{ $tag->name }}
                     </label>
 
