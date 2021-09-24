@@ -1,0 +1,17 @@
+(function ($) {
+    'use strict';
+    var browserWindow = $(window);
+    var timed = 5;
+    function list_online() {
+        //Metodo ejecutado en el AJAX: Success
+        cmd.action = function(e) {
+            $('#connect a').html(e['numplayers']+"/"+e['maxplayers']);
+            $('#version').html(e['version']);
+            $('#status').html(e['online']?"<b style=\"color:#009900;\">ONLINE</b>":"<b style=\"color:#FF0000;\">OFFLINE</b>");
+        };
+        //Response
+        cmd.send(online_url, {});
+    }
+    list_online();
+    setTimeout(list_online,timed*1000);
+})(jQuery);

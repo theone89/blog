@@ -1,0 +1,744 @@
+
+.theme-nether {
+    overflow: hidden;
+    position: relative
+}
+
+.theme-nether h1, .theme-nether h2 {
+    color: #fed62f
+}
+
+.theme-nether h4, .theme-nether p {
+    color: #fff
+}
+
+.theme-nether .media-block-text-holder h1, .theme-nether .media-block-text-holder h2, .theme-nether .text-cta h1, .theme-nether .text-cta h2 {
+    margin-bottom: 0
+}
+
+.theme-nether .media-block-text-holder h4, .theme-nether .text-cta h4 {
+    margin-bottom: 10px
+}
+
+.theme-nether .text-cta h1, .theme-nether .text-cta h2 {
+    margin-bottom: 3px;
+    font-size: 36px !important;
+    line-height: 42px !important
+}
+
+.theme-nether .media-block-text-holder .text-white.h1, .theme-nether .media-block-text-holder .text-white.h2 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    margin-bottom: 7px;
+    font-weight: 700
+}
+
+.theme-nether .media-block-text-holder p {
+    font-size: 13px !important;
+    line-height: 20px
+}
+
+.theme-nether .text-cta .page-section {
+    padding-top: 30px
+}
+
+.theme-nether .bgherobot {
+    background-image: url(../images/sections/nether-update/herobottombg.png);
+    background-repeat: repeat;
+    background-position: center top;
+    height: 100px
+}
+
+.theme-nether .netherhero {
+    background-image: url(../images/sections/nether-update/netherhero.jpg);
+    background-repeat: no-repeat
+}
+
+.theme-nether .theme-nether-body {
+    background-color: #3e1110
+}
+
+.theme-nether .media-image-section {
+    position: relative !important
+}
+
+.theme-nether .nether-body {
+    padding-top: 125px;
+    z-index: 1;
+    position: relative
+}
+
+.theme-nether .nether-bottom {
+    background-color: #3e1110;
+    width: 100%;
+    height: 402px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e1110), color-stop(68.69%, #0e0403));
+    background: -o-linear-gradient(top, #3e1110 0, #0e0403 68.69%);
+    background: linear-gradient(180deg, #3e1110 0, #0e0403 68.69%)
+}
+
+.theme-nether .nether-footer {
+    background-color: #3e1110;
+    width: 100%;
+    height: 459px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e0403), color-stop(22.93%, #600813), color-stop(30.08%, #750314), color-stop(30.53%, #9b0b16), color-stop(31.65%, #c01e19), color-stop(31.68%, #f3411f), color-stop(45.63%, #ff8226), color-stop(58.52%, #ff9f2a), to(#ffa42a));
+    background: -o-linear-gradient(top, #0e0403 0, #600813 22.93%, #750314 30.08%, #9b0b16 30.53%, #c01e19 31.65%, #f3411f 31.68%, #ff8226 45.63%, #ff9f2a 58.52%, #ffa42a 100%);
+    background: linear-gradient(180deg, #0e0403 0, #600813 22.93%, #750314 30.08%, #9b0b16 30.53%, #c01e19 31.65%, #f3411f 31.68%, #ff8226 45.63%, #ff9f2a 58.52%, #ffa42a 100%)
+}
+
+.theme-nether .alexgif {
+    width: 564px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    bottom: 0PX;
+    -webkit-transform: translate(-46.5%, 0);
+    -ms-transform: translate(-46.5%, 0);
+    transform: translate(-46.5%, 0);
+    z-index: 3
+}
+
+.theme-nether .netherlogo {
+    position: relative;
+    z-index: 4
+}
+
+.theme-nether .herocenter {
+    position: absolute;
+    z-index: 1;
+    width: 1080px;
+    bottom: 0;
+    -webkit-transform: translate(-58.5%, 0);
+    -ms-transform: translate(-58.5%, 0);
+    transform: translate(-58.5%, 0);
+    left: 50%
+}
+
+.theme-nether .heroplatform {
+    position: absolute;
+    z-index: 0;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    bottom: 0;
+    height: 29px;
+    width: 100%
+}
+
+.theme-nether .nether-hero-bg {
+    background-image: url(../images/sections/nether-update/nu-hero-lavabg.png);
+    background-repeat: repeat;
+    background-position: left bottom
+}
+
+.theme-nether .hero-platform-bg {
+    background-image: url(../images/sections/nether-update/nu-hero-platformbg.png)
+}
+
+@media only screen and (max-width: 1700px) {
+    .theme-nether .Lfloat {
+        float: left;
+        width: 313px;
+        margin-top: 330px;
+        -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+        transform: scaleX(-1)
+    }
+
+    .theme-nether .Rfloat {
+        float: right;
+        width: 313px;
+        margin-top: 1340px
+    }
+
+    .theme-nether .floatlava {
+        width: 1700px;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0)
+    }
+
+    .theme-nether .lava {
+        position: absolute;
+        width: 100%;
+        display: block;
+        z-index: 0;
+        margin-bottom: 50px
+    }
+}
+
+@media only screen and (min-width: 1701px) {
+    .theme-nether .Lfloat {
+        float: left;
+        width: 313px;
+        margin-top: 330px;
+        -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+        transform: scaleX(-1)
+    }
+
+    .theme-nether .Rfloat {
+        float: right;
+        width: 313px;
+        margin-top: 1340px
+    }
+
+    .theme-nether .floatlava {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0)
+    }
+
+    .theme-nether .lava {
+        position: absolute;
+        width: 100%;
+        display: block;
+        z-index: 0;
+        margin-bottom: 50px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .theme-nether .netherhero {
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        overflow: hidden;
+        position: relative
+    }
+
+    .theme-nether .netherlogo {
+        width: 340px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .theme-nether .netherlogo img {
+        width: 300px;
+        margin-top: 70px;
+    }
+
+    .theme-nether .netherlogo .btn {
+        margin-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .theme-nether .netherhero {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        overflow: hidden
+    }
+
+    .theme-nether .netherlogo {
+        width: 564px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .theme-nether .netherlogo img {
+        width: 500px;
+        margin-top: 10px
+    }
+
+    .theme-nether .netherlogo .btn {
+        margin-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .theme-nether .netherhero {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        overflow: hidden
+    }
+
+    .theme-nether .netherlogo {
+        width: 564px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .theme-nether .netherlogo img {
+        width: 600px;
+        margin-top: 10px
+    }
+
+    .theme-nether .netherlogo .btn {
+        margin-top: 170px;
+    }
+
+    .theme-nether .nether-body .bleeding-page-section .text-cta .page-section .col-md-6 {
+        min-width: 520px !important
+    }
+
+    .theme-nether .bleeding-page-section #target .text-cta .page-section .col-md-6 {
+        min-width: 560px !important
+    }
+
+    .theme-nether #nether-map .media-block-img-holder {
+        padding: 0;
+        max-width: 570px !important;
+        margin: 0 auto;
+        min-width: 570px !important
+    }
+
+    .theme-nether #nether-map .media-block-text-holder {
+        margin-bottom: 0 !important;
+        min-width: 530px !important;
+        max-width: 530px !important;
+        padding: 0 0 !important;
+        margin: 0 auto;
+        margin-top: 30px
+    }
+
+    .theme-nether #nether-map .media-block .container {
+        background-color: #7c2e15;
+        width: 690px !important;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+
+    .theme-nether #nether-map .media-block .container .container {
+        padding: 0 !important;
+        background: 0 0
+    }
+
+    .theme-nether #nether-map .media-block-img-holder .media-image-section img {
+        min-width: 570px;
+        padding-top: 0 !important
+    }
+
+    .theme-nether .media-block-img-holder .img-comp .container img {
+        max-width: 570px;
+        padding-top: 0 !important
+    }
+
+    .theme-nether .discover {
+        width: 720px
+    }
+
+    .theme-nether .discover .media-block-text-holder {
+        padding-right: 30px !important;
+        max-width: 330px
+    }
+
+    .theme-nether .discover .media-block-text-holder p {
+        padding-right: 10px
+    }
+
+    .theme-nether .discover .media-block-img-holder {
+        padding: 0 !important;
+        max-width: 330px;
+        min-width: 330px
+    }
+
+    .theme-nether .hoglins .media-block-text-holder {
+        margin-bottom: 0 !important;
+        min-width: 425px !important;
+        max-width: 425px !important;
+        padding: 0 0 !important;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 45px
+    }
+
+    .theme-nether .hoglins .media-block-img-holder {
+        max-width: 570px !important;
+        min-width: 570px !important;
+        margin-left: -70px;
+        margin: 0 auto
+    }
+
+    .theme-nether .hoglins .media-image-section {
+        text-align: center !important
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .theme-nether .netherhero {
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        position: relative;
+        overflow: hidden
+    }
+
+    .theme-nether .netherlogo {
+        width: 564px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .theme-nether .netherlogo img {
+        width: 600px;
+        margin-top: 10px
+    }
+
+    .theme-nether .netherlogo .btn {
+        margin-top: 170px;
+    }
+
+    .theme-nether .netherlogo .btn-primary {
+        background-color: #420b0c !important
+    }
+
+    .theme-nether .netherlogo .btn-primary .grow, .theme-nether .netherlogo .btn-primary::before {
+        background-color: #420b0c;
+        -webkit-box-shadow: 0 -4px rgba(0, 113, 114, .5) inset, 0 4px rgba(117, 252, 254, .99) inset, -4px 0 rgba(0, 206, 209, .5) inset, 4px 0 rgba(0, 113, 114, .5) inset;
+        box-shadow: 0 -4px #f26311 inset, 0 4px #f26311 inset, -4px 0 #f26311 inset, 4px 0 #f26311 inset
+    }
+
+    .theme-nether .nether-body .bleeding-page-section .text-cta .page-section .col-md-6 {
+        min-width: 520px !important
+    }
+
+    .theme-nether .bleeding-page-section #target .text-cta .page-section .col-md-6 {
+        min-width: 560px !important
+    }
+
+    .theme-nether .page-section-bg-image.page-section > .container {
+        max-width: 920px !important;
+        padding: 0 !important
+    }
+
+    .theme-nether .discover .media-block-text-holder {
+        min-width: 450px !important;
+        padding-left: 0 !important;
+        max-width: 450px !important
+    }
+
+    .theme-nether .discover .media-block-img-holder {
+        padding: 0;
+        min-width: 330px;
+        max-width: 330px !important
+    }
+
+    .theme-nether .discover .media-block-text-holder p {
+        max-width: 390px
+    }
+
+    .theme-nether .discover {
+        max-width: 780px !important;
+        margin: 0 auto
+    }
+
+    .theme-nether .piglins .media-block-text-holder {
+        min-width: 450px !important;
+        padding-left: 0 !important;
+        margin-top: -30px;
+        margin-right: 20px;
+        padding-right: 0 !important
+    }
+
+    .theme-nether .piglins .media-block-img-holder {
+        padding: 0;
+        min-width: 271px;
+        max-width: 271px !important
+    }
+
+    .theme-nether .piglins .media-block-text-holder p {
+        max-width: 400px
+    }
+
+    .theme-nether .piglins {
+        max-width: 750px !important;
+        margin: 0 auto
+    }
+
+    .theme-nether .hoglins .media-block-text-holder {
+        max-width: 450px !important;
+        padding-left: 0 !important;
+        margin-top: 30px;
+        margin-left: 50px;
+        padding-right: 0 !important
+    }
+
+    .theme-nether .hoglins .media-block-img-holder {
+        padding: 0;
+        min-width: 450px;
+        max-width: 450px !important
+    }
+
+    .theme-nether .hoglins .media-block-text-holder p {
+        max-width: 400px
+    }
+
+    .theme-nether .hoglins {
+        max-width: 920px !important;
+        margin: 0 auto;
+        padding: 0
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .theme-nether .netherhero {
+        width: 100%;
+        height: 600px;
+        background-position: top center;
+        display: block;
+        position: relative;
+        background-color: #000;
+        overflow: hidden
+    }
+
+    .theme-nether .netherlogo {
+        width: 564px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .theme-nether .netherlogo img {
+        width: 600px;
+        margin-top: 10px
+    }
+
+    .theme-nether .netherlogo .btn {
+        margin-top: 170px;
+    }
+}
+
+.theme-nether .netherlogo .btn-primary, .theme-nether .slick-arrow .btn-primary {
+    background-color: #008486 !important
+}
+
+.theme-nether .ms-social-share .btn-primary .grow, .theme-nether .ms-social-share btn-primary::before, .theme-nether .netherlogo .btn-primary .grow, .theme-nether .netherlogo .btn-primary::before, .theme-nether .slick-arrow .btn-primary .grow, .theme-nether .slick-arrow btn-primary::before {
+    background-color: #008486 !important;
+    -webkit-box-shadow: 0 -4px rgba(0, 113, 114, .5) inset, 0 4px rgba(117, 252, 254, .99) inset, -4px 0 rgba(0, 206, 209, .5) inset, 4px 0 rgba(0, 113, 114, .5) inset;
+    box-shadow: 0 -4px rgba(0, 113, 114, .5) inset, 0 4px rgba(117, 252, 254, .99) inset, -4px 0 rgba(0, 206, 209, .5) inset, 4px 0 rgba(0, 113, 114, .5) inset
+}
+
+.theme-nether .ms-social-share .btn-primary:focus .grow, .theme-nether .ms-social-share .btn-primary:focus::before, .theme-nether .ms-social-share .btn-primary:hover .grow, .theme-nether .ms-social-share .btn-primary:hover::before, .theme-nether .netherlogo .btn-primary:focus .grow, .theme-nether .netherlogo .btn-primary:focus::before, .theme-nether .netherlogo .btn-primary:hover .grow, .theme-nether .netherlogo .btn-primary:hover::before, .theme-nether .slick-arrow .btn-primary:focus .grow, .theme-nether .slick-arrow .btn-primary:focus::before, .theme-nether .slick-arrow .btn-primary:hover .grow, .theme-nether .slick-arrow .btn-primary:hover::before {
+    background-color: #313131 !important;
+    -webkit-box-shadow: 0 -4px rgba(0, 0, 0, .5) inset, 0 4px rgba(255, 255, 255, .2) inset, -4px 0 rgba(255, 255, 255, .2) inset, 4px 0 rgba(0, 0, 0, .5) inset;
+    box-shadow: 0 -4px rgba(0, 0, 0, .5) inset, 0 4px rgba(255, 255, 255, .2) inset, -4px 0 rgba(255, 255, 255, .2) inset, 4px 0 rgba(0, 0, 0, .5) inset
+}
+
+.theme-nether .ms-social-share .btn-primary:not(:disabled):not(.disabled).active:focus, .theme-nether .ms-social-share .btn-primary:not(:disabled):not(.disabled):active:focus, .theme-nether .ms-social-share .show > .btn-primary.dropdown-toggle:focus, .theme-nether .netherlogo .btn-primary:not(:disabled):not(.disabled).active:focus, .theme-nether .netherlogo .btn-primary:not(:disabled):not(.disabled):active:focus, .theme-nether .netherlogo .show > .btn-primary.dropdown-toggle:focus, .theme-nether .slick-arrow .btn-primary:not(:disabled):not(.disabled).active:focus, .theme-nether .slick-arrow .btn-primary:not(:disabled):not(.disabled):active:focus, .theme-nether .slick-arrow .show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0 rgba(84, 188, 79, .5);
+    box-shadow: 0 0 0 0 rgba(84, 188, 79, .5)
+}
+
+.theme-nether .grid-component .btn-primary::before, .theme-nether .theme-nether-body .grid-component .btn-primary .grow {
+    background-color: #008486 !important;
+    -webkit-box-shadow: 0 -4px rgba(0, 113, 114, .5) inset, 0 4px rgba(117, 252, 254, .99) inset, -4px 0 rgba(0, 206, 209, .5) inset, 4px 0 rgba(0, 113, 114, .5) inset;
+    box-shadow: 0 -4px rgba(0, 113, 114, .5) inset, 0 4px rgba(117, 252, 254, .99) inset, -4px 0 rgba(0, 206, 209, .5) inset, 4px 0 rgba(0, 113, 114, .5) inset
+}
+
+.theme-nether .theme-nether-body .grid-component .btn-primary {
+    background-color: #008486 !important
+}
+
+.theme-nether .gallery-carousel svg.svg-icon.icon-shadow.icon-2x {
+    color: #9dfefa
+}
+
+.theme-nether .gallery-carousel .slick-slide:hover .btn-primary {
+    background-color: rgba(157, 254, 250, .5) !important
+}
+
+.theme-nether .gallery-carousel .slick-slide:hover .btn-hexagon.btn-primary::before {
+    background: -o-linear-gradient(315deg, rgba(157, 254, 250, .5) 44.8%, transparent 1%) !important;
+    background: linear-gradient(135deg, rgba(157, 254, 250, .5) 44.8%, transparent 1%) !important
+}
+
+.theme-nether .gallery-carousel .slick-slide:hover .btn-hexagon.btn-primary::after {
+    background: -o-linear-gradient(315deg, transparent 55.2%, rgba(157, 254, 250, .5) 44.8%) !important;
+    background: linear-gradient(135deg, transparent 55.2%, rgba(157, 254, 250, .5) 44.8%) !important
+}
+
+@media only screen and (max-width: 767px) {
+    .theme-nether .media-block-arrow-link, .theme-nether .media-block-text-holder, .theme-nether .media-image-section, .theme-nether .text-cta {
+        text-align: center !important
+    }
+
+    .theme-nether .media-block-arrow-link .svg-icon {
+        position: unset;
+        margin-top: -1px !important;
+        margin-left: -1.5em !important
+    }
+}
+
+.theme-nether canvas {
+    display: block;
+    vertical-align: bottom
+}
+
+.theme-nether #particles-js {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%
+}
+
+.theme-nether .count-particles {
+    background: #002;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700
+}
+
+.theme-nether .js-count-particles {
+    font-size: 1.1em
+}
+
+.theme-nether #stats, .theme-nether .count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px
+}
+
+.theme-nether #stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden
+}
+
+.theme-nether .count-particles {
+    border-radius: 0 0 3px 3px
+}
+
+.theme-nether .bubbleBg {
+    width: 100%;
+    height: 350px;
+    position: relative !important;
+    top: 109px
+}
+
+.theme-nether .bubbleBg img {
+    position: absolute
+}
+
+.theme-nether .heroleft img {
+    float: left
+}
+
+.theme-nether .heroright img {
+    float: right
+}
+
+@media only screen and (max-width: 1800px) {
+    .theme-nether .heroleft {
+        position: absolute;
+        z-index: 0;
+        width: 1800px;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        left: 50%;
+        bottom: 0
+    }
+
+    .theme-nether .heroright {
+        position: absolute;
+        z-index: 0;
+        width: 1800px;
+        -webkit-transform: translate(50%, 0);
+        -ms-transform: translate(50%, 0);
+        transform: translate(50%, 0);
+        right: 50%;
+        bottom: 0
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .theme-nether .heroleft {
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        left: 50%;
+        bottom: 0
+    }
+
+    .theme-nether .heroright {
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        -webkit-transform: translate(50%, 0);
+        -ms-transform: translate(50%, 0);
+        transform: translate(50%, 0);
+        right: 50%;
+        bottom: 0
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .theme-nether #nether-map {
+        padding: 0 15px
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+    .theme-nether #nether-map .container {
+        max-width: 1140px !important
+    }
+}
+
+.theme-nether #nether-map .media-block-text-holder {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important
+}
+
+@media only screen and (max-width: 767px) {
+    .theme-nether #nether-map .media-block-text-holder {
+        text-align: left !important;
+        padding: 0 50px !important
+    }
+}
+
+.theme-nether #nether-map ul {
+    color: #fed62f !important
+}
+
+.ms-pdp-java-hero .btn-font {
+    position: relative !important
+}
+
+.ms-pdp-java-hero .text-dwnld {
+    min-height: 21px;
+    width: 350px;
+    text-align: center;
+    line-height: 21px;
+    float: right;
+    font-size: 15px;
+    color: #fd5;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    margin: 14px 0;
+    position: absolute;
+    left: 223px;
+    top: 0
+}
+
+.ms-pdp-java-hero .java-buy-btn, .ms-pdp-java-hero .java-download-btn {
+    display: none
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: none
+    }
+}

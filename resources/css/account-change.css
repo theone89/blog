@@ -1,0 +1,276 @@
+.aem-Grid.aem-Grid--default--12 > .aem-GridColumn.aem-GridColumn--default--12 {
+    float: left;
+    clear: none;
+    width: 100%;
+}
+.aem-GridColumn {
+    box-sizing: border-box;
+    clear: both;
+}
+.dlc-buy-module-root {
+    min-height: 20px;
+    width: 100%;
+}
+.dlc-buy-module-container {
+    height: 100%;
+    width: 100%;
+    max-width: 65pc;
+    margin: auto;
+    padding: 0 30px;
+    font-family: Noto Sans,sans-serif;
+}
+.dlc-buy-module-container .dlc-buy-module-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-hero-container {
+    position: relative;
+    width: 380px;
+    margin: 20px 30px 0 0;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-hero-container .buy-module-hero-image {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-hero-container .buy-module-learn-more {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #fce07e;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-hero-container .buy-module-learn-more {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #fce07e;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+.site-body a {
+    color: #196d17;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-hero-container .buy-module-learn-more svg {
+    margin-top: -2px;
+    margin-right: 10px;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-hero-container .buy-module-hero-version-logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container {
+    width: 100%;
+    max-width: 570px;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-dlc-title {
+    margin: 20px 0;
+    font-size: 28px;
+    line-height: 2pc;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container {
+    display: block;
+    height: 46px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6f2900;
+    background-color: #ffb054;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.css-2b097c-container {
+    position: relative;
+    box-sizing: border-box;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__control"] {
+    height: 100%;
+    border: 2px solid #d0750a;
+    border-radius: 0;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__"] {
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.css-yk16xz-control {
+    -moz-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    min-height: 38px;
+    outline: currentcolor none 0px !important;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container .buy-module-select__value-container {
+    padding-left: 15px;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__"] {
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.css-1hwfws3 {
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    padding: 2px 8px;
+        padding-left: 8px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__"] {
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.css-1uccc91-singleValue {
+    color: rgb(51, 51, 51);
+    margin-left: 2px;
+    margin-right: 2px;
+    max-width: calc(100% - 8px);
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+}
+.css-62g3xt-dummyInput {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px center;
+    border: 0px none;
+    font-size: inherit;
+    outline: currentcolor none 0px;
+    padding: 0px;
+    width: 1px;
+    color: transparent;
+    left: -100px;
+    opacity: 0;
+    position: relative;
+    transform: scale(0);
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__"] {
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.css-1wy0on6 {
+    -moz-box-align: center;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__"] {
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    background-image: url("../icons/buttons/arrow.svg") !important;
+    background-size: 0.95em !important;
+    background-repeat: no-repeat !important;
+    background-position: 100% !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+.css-1okebmr-indicatorSeparator {
+    align-self: stretch;
+    background-color: rgb(204, 204, 204);
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 1px;
+    box-sizing: border-box;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__control"] .buy-module-select__indicator {
+    -webkit-transform-origin: 50% 45%;
+    transform-origin: 50% 45%;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-select-container [class*="buy-module-select__"] {
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.css-tlfecz-indicatorContainer {
+    color: rgb(204, 204, 204);
+    display: flex;
+    padding: 8px;
+    transition: color 150ms ease 0s;
+    box-sizing: border-box;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-dlc-content .buy-module-dlc-description {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-dlc-content .buy-module-buy-button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    background: #353535;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: center;
+}
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-content-container .buy-module-dlc-content .buy-module-buy-button-container .buy-module-buy-price {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.dlc-buy-module-container .dlc-buy-module-section .buy-module-hero-container .buy-module-hero-version-logo-container .buy-module-device-logo {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 15px;
+    left: 15px;
+}

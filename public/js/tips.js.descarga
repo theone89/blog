@@ -1,0 +1,17 @@
+function random_text(){
+	var texts = new Array()
+	texts[0] = "Los diamantes los encuentras entre la capa 3 y la 12"
+	texts[1] = "Los administradores estan siempre en el TS de RoG"
+	texts[2] = "Cuidado con la lava!"
+	texts[3] = "Minecraft Nehter Update ya disponible!"
+	texts[4] = "Crea un refugio para que los monstruos no te ataquen cuando caiga la noche"
+	texts[5] = "Sssssss Sssss Ssssss"
+	texts[6] = "Comercia para conseguir objetos mejores y conoce los secretos de los templos y monumentos."
+	texts[7] = "Almacena recursos y hallar comida para no morir de hambre."
+	texts[8] = "Aprende a criar animales, adiestrar ocelotes y galopar por el mundo a lomos de un caballo."
+	texts[9] = "Usa el carbón vegetal y los palos para crear antorchas."
+	
+	aleat = Math.random() * (texts.length)
+	aleat = Math.floor(aleat)
+	document.write(texts[aleat])
+}

@@ -1,0 +1,577 @@
+@media (min-width: 576px) {
+    .promo-area .promo-carousel {
+        opacity: 0;
+        visibility: hidden
+    }
+}
+
+.promo-area .promo-carousel.slick-initialized {
+    visibility: visible;
+    opacity: 1
+}
+
+.promo-area .link1 {
+    text-transform: uppercase !important
+}
+
+.promo-area .arrow-img-icon:before {
+    content: "";
+    background: url(../images/icons/link-arrow.svg) no-repeat;
+    width: 15px;
+    height: 15px;
+    padding-left: 22px;
+    background-size: 15px;
+    background-position-y: 2px
+}
+
+.promo-area .arrow-icon {
+    width: 15px !important;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -3px
+}
+
+@media screen and (min-width: 1200px) {
+    .promo-area .align-vertical {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .promo-area .container {
+        max-width: 980px
+    }
+
+    .promo-area .page-section {
+        position: relative;
+        padding: 0 !important
+    }
+
+    .promo-area .promodivider {
+        padding-top: 75px !important
+    }
+
+    .promo-area .promo-img {
+        height: 100%;
+        width: 475px;
+        -o-object-fit: contain;
+        object-fit: contain
+    }
+
+    .promo-area .pl-30 {
+        padding-left: 30px !important
+    }
+
+    .promo-area .pr-30 {
+        padding-right: 30px !important
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .promo-area .container {
+        max-width: 690px
+    }
+
+    .promo-area .promo-img {
+        width: 100%
+    }
+
+    .promo-area .promo-margin {
+        margin-left: .5rem !important
+    }
+
+    .promo-area .page-section {
+        position: relative;
+        padding: 0 !important
+    }
+
+    .promo-area .promo-img {
+        width: 330px
+    }
+
+    .promo-area .promodivider {
+        padding-top: 75px !important
+    }
+
+    .promo-area .pl-30 {
+        padding-left: 30px !important
+    }
+
+    .promo-area .pr-30 {
+        padding-right: 30px !important
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .promo-area .promodivider {
+        padding-top: 50px !important
+    }
+
+    .promo-area .promo-img {
+        height: 100%;
+        width: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+        margin-bottom: 30px
+    }
+
+    .promo-area .pl-30, .promo-area .pr-30 {
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.9px) {
+    .promo-area .container {
+        max-width: 510px
+    }
+
+    .promo-area .promo-margin {
+        margin: .5rem !important
+    }
+
+    .promo-area .pl-30, .promo-area .pr-30 {
+        padding: 0 !important;
+        text-align: center
+    }
+
+    .promo-area .promo-img {
+        height: 308px;
+        width: 510px;
+        -o-object-fit: contain;
+        object-fit: contain;
+        margin-bottom: 30px
+    }
+
+    .promo-area .page-section {
+        position: relative;
+        padding: 0 !important
+    }
+
+    .promo-area .promodivider {
+        padding-top: 75px !important
+    }
+}
+
+.promo-area ul.slick-dots li.slick-active {
+    -webkit-animation: none !important;
+    animation: none !important
+}
+
+.promo-area .gameupdates .arrow-icon {
+    float: none !important;
+    background-image: url(../icons/link-arrow.svg);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-size: 15px;
+    background-position-y: 2px
+}
+
+.promo-area .slick-dotted.slick-slider {
+    margin-bottom: 0 !important
+}
+
+.promo-area .mbt {
+    margin-top: 75px;
+    margin-bottom: 50px
+}
+
+.promo-area .slick-dots {
+    width: 100%
+}
+
+.promo-area .slick-dots li button {
+    display: block;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0;
+    cursor: pointer;
+    color: #aaa;
+    border: 0;
+    outline: 0;
+    background: 0 0
+}
+
+.promo-area .slick-dots li button {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #aaa
+}
+
+.promo-area .slick-dots button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    background-color: #aaa;
+    text-indent: -9999px
+}
+
+.promo-area .slick-dots li.slick-active button {
+    background-color: #555
+}
+
+.promo-area .gameupdates .slick-dots {
+    text-align: center
+}
+
+.promo-area .gameupdates-carousel .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    margin: 30px 5px;
+    background-color: rgba(24, 24, 24, .35);
+    display: block;
+    -webkit-backface-visibility: visible;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+    border-radius: 0
+}
+
+.promo-area .gameupdates-carousel .slick-dots li button {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: relative;
+    outline: 0
+}
+
+.promo-area .slick-dots li {
+    width: 12px;
+    height: 12px
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .promo-area .mbt {
+        margin-top: 50px !important;
+        margin-bottom: 30px !important
+    }
+
+    .promo-area .gameupdates .slick-next {
+        position: absolute;
+        top: 23% !important;
+        right: 18px
+    }
+
+    .promo-area .gameupdates .slick-prev {
+        position: absolute;
+        top: 23% !important;
+        left: 18px
+    }
+
+    .promo-area .slick-slide img {
+        width: 100% !important
+    }
+
+    .promo-area .slick-slide {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        color: #333;
+        margin-left: 39px !important;
+        margin-right: 39px !important
+    }
+
+    .promo-area .slider-wrap {
+        width: 100%;
+        margin-bottom: 92px
+    }
+
+    .promo-area .slick-slide .slide {
+        background-color: #fff;
+        display: inline-block;
+        padding: 0
+    }
+
+    .promo-area .slick-dots {
+        left: 0;
+        margin-bottom: -17px
+    }
+
+    .promo-area .slick-list {
+        padding-left: 0;
+        background-color: #fff;
+        padding-top: 30px;
+        padding-bottom: 26px
+    }
+
+    .promo-area .slick-slide h2 {
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .promo-area .gameupdates .slick-next {
+        position: absolute;
+        top: 30% !important;
+        right: 33px
+    }
+
+    .promo-area .gameupdates .slick-prev {
+        position: absolute;
+        top: 30% !important;
+        left: 32px
+    }
+
+    .promo-area .slick-slide img {
+        width: 100% !important
+    }
+
+    .promo-area .slick-list {
+        padding-left: 0;
+        background-color: #fff;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+
+    .promo-area .slick-slide {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        color: #333;
+        margin-left: 53px !important;
+        margin-right: 53px !important
+    }
+
+    .promo-area .slider-wrap {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 117px
+    }
+
+    .promo-area .slick-slide .slide {
+        background-color: #fff;
+        display: inline-block;
+        padding: 0
+    }
+
+    .promo-area .slick-dots {
+        left: 0;
+        margin-bottom: -17px
+    }
+
+    .promo-area .slick-slide h2 {
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .promo-area .gameupdates .slick-next {
+        position: absolute;
+        top: 28% !important;
+        right: 0
+    }
+
+    .promo-area .gameupdates .slick-prev {
+        position: absolute;
+        top: 28% !important;
+        left: 27px
+    }
+
+    .promo-area .slick-slide img {
+        width: 100% !important
+    }
+
+    .promo-area .slick-list {
+        padding-left: 28px
+    }
+
+    .promo-area .slick-slide {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        color: #333;
+        margin-left: 60px !important;
+        margin-right: 60px !important
+    }
+
+    .promo-area .slider-wrap {
+        width: 100%;
+        margin-left: -30px;
+        margin-bottom: 117px
+    }
+
+    .promo-area .slick-slide .slide {
+        background-color: #fff;
+        display: inline-block;
+        padding: 30px 30px 44px 30px
+    }
+
+    .promo-area .slick-slide img {
+        width: 530px
+    }
+
+    .promo-area .slick-dots {
+        left: 18px;
+        margin-bottom: -11px
+    }
+
+    .promo-area .slick-slide h2 {
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .promo-area .gameupdates .slick-next {
+        position: absolute;
+        top: 35% !important;
+        right: 33px
+    }
+
+    .promo-area .gameupdates .slick-prev {
+        position: absolute;
+        top: 35% !important;
+        left: 61px
+    }
+
+    .promo-area .slick-slide img {
+        width: 100% !important
+    }
+
+    .promo-area .slick-list {
+        padding-left: 28px
+    }
+
+    .promo-area .slick-slide {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        color: #333;
+        margin-left: 99px !important;
+        margin-right: 99px !important
+    }
+
+    .promo-area .slider-wrap {
+        width: 100%;
+        margin-left: -30px;
+        margin-bottom: 117px
+    }
+
+    .promo-area .slick-slide .slide {
+        background-color: #fff;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        padding: 30px
+    }
+
+    .promo-area .slick-slide img {
+        width: 530px
+    }
+
+    .promo-area .slick-dots {
+        left: 25px;
+        margin-bottom: -17px
+    }
+
+    .promo-area .slick-slide h2 {
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 1025px) {
+    .promo-area .slick-list {
+        padding-left: 28px
+    }
+
+    .promo-area .slick-slide {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 40px;
+        color: #333
+    }
+
+    .promo-area .gameupdates .slick-next {
+        position: absolute;
+        top: 45% !important;
+        right: -25px
+    }
+
+    .promo-area .gameupdates .slick-prev {
+        position: absolute;
+        top: 45% !important;
+        left: 0
+    }
+
+    .promo-area .slider-wrap {
+        width: 100%;
+        margin-left: -25px;
+        margin-bottom: 117px
+    }
+
+    .promo-area .slick-slide .slide {
+        background-color: #fff;
+        display: inline-block !important;
+        padding: 30px
+    }
+
+    .promo-area .slick-slide img {
+        width: 540px;
+        float: left;
+        margin-right: 30px
+    }
+
+    .promo-area .slick-dots {
+        left: 0;
+        margin-bottom: -17px
+    }
+}
+
+.promo-area .woolbgTop {
+    height: 100px;
+    display: block;
+    background-position-x: -710px;
+    background-repeat: repeat-x !important;
+    width: 100%;
+    margin-top: -1px;
+    margin-bottom: 50px
+}
+
+.promo-area .woolbgBot {
+    height: 100px;
+    display: block;
+    background-position-x: -815px;
+    background-repeat: repeat-x !important;
+    width: 100%;
+    margin-bottom: -1px;
+    margin-top: 50px
+}
+
+.promo-area .ptbtit2 {
+    height: 50px
+}
+
+.promo-area .bg-wool-light {
+    background-image: url(main/resources/img/feature-content/bg-wool-light.png)
+}
+
+.promo-area .bg-wool-dark {
+    background-image: url(main/resources/img/feature-content/bg-wool-dark.png)
+}
+
+.promo-area .trans-bottom-light {
+    background-image: url(main/resources/img/feature-content/trans-bottom-lightwool.png)
+}
+
+.promo-area .trans-bottom-dark {
+    background-image: url(main/resources/img/feature-content/trans-bottom-darkwool.png)
+}
+
+.promo-area .trans-top-light {
+    background-image: url(main/resources/img/feature-content/trans-top-lightwool.png)
+}
+
+.promo-area .trans-top-dark {
+    background-image: url(main/resources/img/feature-content/trans-top-darkwool.png)
+}
+
+_:-ms-fullscreen, :root .promo-area .slick-slide img {
+    max-width: 540px;
+    width: auto !important
+}
+

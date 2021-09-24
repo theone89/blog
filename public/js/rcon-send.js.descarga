@@ -1,0 +1,107 @@
+$(document).ready(function(){
+
+  $("#txtCommand").bind("enterKey",function(e){
+    sendCommand($("#txtCommand").val());
+  });
+
+  $("#txtCommand").keyup(function(e){
+    if(e.keyCode == 13){
+      $(this).trigger("enterKey");
+      $(this).val("");
+    }
+  });
+
+  $("#btnSend").click(function(){
+    if($("#txtCommand").val() != ""){
+      $("#btnSend").prop("disabled", true);
+    }
+    sendCommand($("#txtCommand").val());
+  });
+});
+
+function logMsg(msg, sep, cls){
+  $("#groupConsole")
+    .append("<p class=\"font-mc-seven\">" + sep + " " + msg + "</p>");
+  $("#btnSend").prop("disabled", false);
+  // Clear old logs
+  var logItemSize = $("#groupConsole p").size();
+  if(logItemSize > 50){
+    $("#groupConsole p:first").remove();
+  }
+}
+function logSuccess(log){
+  logMsg(log, ">> Minecraft Server:", "success");
+}
+function logInfo(log){
+  logMsg(log, ">> Minecraft Server:", "info");
+}
+function logWarning(log){
+  logMsg(log, ">> Minecraft Server:", "warning");
+}
+function logDanger(log){
+  logMsg(log, ">> Minecraft Server:", "danger");
+}
+
+function alertMsg(msg, cls){
+  $("#alertMessage").fadeOut("slow", function(){
+    $("#alertMessage").attr("class", "alert alert-"+cls);
+    $("#alertMessage").html(msg);
+    $("#alertMessage").fadeIn("slow", function(){});
+  });
+}
+function alertSuccess(msg){
+  alertMsg(msg, "success");
+}
+function alertInfo(msg){
+  alertMsg(msg, "info");
+}
+function alertWarning(msg){
+  alertMsg(msg, "warning");
+}
+function alertDanger(msg){
+  alertMsg(msg, "danger");
+}
+
+function sendCommand(command){
+  if (command == "") {
+    alertDanger("Command missing.");
+    return;
+  }
+  logMsg(command, ">>", "success");
+  $.post("/admin/rcon/", { cmd: command })
+    .done(function(json){
+      if(json.status){
+        if(json.status == 'success' && json.response && json.command){
+          if(json.response.indexOf("Unknown command") != -1){
+            alertDanger("Unknown command : " + json.command);
+            logDanger(json.response);
+          }
+          else if(json.response.indexOf("Usage") != -1){
+            alertWarning(json.response);
+            logWarning(json.response);
+          }
+          else{
+            alertSuccess("Send success.");
+            resultCommand = json.response.replace("/</g", "&lt;", "/>/g", "&gt;")
+            logInfo(resultCommand);
+          }
+        }
+        else if(json.status == 'error' && json.error){
+          alertDanger(json.error);
+          logDanger(json.error);
+        }
+        else{
+          alertDanger("Malformed RCON api response");
+          logDanger("Malformed RCON api response");
+        }
+      }
+      else{
+        alertDanger("RCON api error (no status returned)");
+        logDanger("RCON api error (no status returned)");
+      }
+    })
+    .fail(function() {
+      alertDanger("RCON error.");
+      logDanger("RCON error.");
+    });
+}

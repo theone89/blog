@@ -1,0 +1,1564 @@
+.secondary-navigation .btn-primary {
+    background-color: #008542 !important
+}
+
+.secondary-navigation .master-head {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important
+}
+
+.secondary-navigation .bold {
+    font-weight: 700
+}
+
+.secondary-navigation .menu-sm {
+    display: none
+}
+
+.secondary-navigation .sec-nav-bg {
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 0 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, .25)
+}
+
+.secondary-navigation .download-text {
+    margin-right: 20px !important;
+    color: #252525 !important
+}
+
+.secondary-navigation .btn {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    min-width: 75px
+}
+
+.secondary-navigation .btn-mobile-store {
+    margin-left: 10px
+}
+
+@media only screen and (min-width: 1200px) {
+    .secondary-navigation .realmsplus-logo {
+        margin-top: 19px !important;
+        width: 160px !important;
+        height: 41px !important
+    }
+
+    .secondary-navigation .earth-logo {
+        height: 53px !important;
+        width: 160px !important;
+        margin-top: 8px !important;
+        background-position: -5px
+    }
+
+    .secondary-navigation .dungeons-logo {
+        height: 53px !important;
+        width: 160px !important;
+        margin-top: 15px !important
+    }
+
+    .secondary-navigation .minecraft-logo {
+        margin-top: 23px !important;
+        margin-bottom: 13px !important;
+        width: 160px;
+        height: 42px !important
+    }
+
+    .secondary-navigation .fixed-header {
+        position: fixed;
+        top: 52px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 9
+    }
+
+    .secondary-navigation .hidden-sm {
+        display: none !important
+    }
+
+    .secondary-navigation .mr-20 {
+        margin-right: 20px !important;
+        margin-top: 3px !important;
+        margin-bottom: 3px !important
+    }
+
+    .secondary-navigation .sec-logo {
+        margin-left: 15px
+    }
+
+    .secondary-navigation .topnav a:hover {
+        cursor: pointer;
+    }
+
+    .secondary-navigation .topnav-right a:hover {
+        cursor:pointer;
+    }
+
+    .secondary-navigation .pt-15 {
+        padding-top: 15px
+    }
+
+    .secondary-navigation .sec-nav-bg {
+        height: 70px;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 4px;
+        -webkit-box-shadow: 0 4px 0 0 rgba(0, 0, 0, .25);
+        box-shadow: 0 4px 0 0 rgba(0, 0, 0, .25)
+    }
+
+    .secondary-navigation .game-logo {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 160px;
+        height: 26px
+    }
+
+    .secondary-navigation .topnav {
+        overflow: hidden;
+        margin-top: 23px;
+        margin-bottom: 25px;
+        margin-left: 30px
+    }
+
+    .secondary-navigation .topnav a {
+        font-family: "Noto Sans";
+        color: #313131;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-right: 30px
+    }
+
+    .secondary-navigation .topnav-right {
+        margin-left: 40px;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        position: absolute;
+        right: 0;
+        margin-right: 15px
+    }
+
+    .secondary-navigation .topnav-right a {
+        font-family: "Noto Sans";
+        color: #313131;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase
+    }
+
+    .secondary-navigation .mr-30 {
+        margin-right: 30px
+    }
+
+    .secondary-navigation .accordion {
+        display: none
+    }
+
+    .secondary-navigation .panel {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 320px) {
+    .secondary-navigation .wrapper {
+        display: none
+    }
+
+    .secondary-navigation .hidden-sm {
+        display: block
+    }
+
+    .secondary-navigation .fixed-header {
+        position: fixed;
+        top: -8px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 9
+    }
+
+    .secondary-navigation .mr-20 {
+        margin: 0 !important
+    }
+
+    .secondary-navigation .game-mobile-logo {
+        height: 19.75px;
+        width: 90px;
+        margin-top: 2px;
+        margin-bottom: 15px
+    }
+
+    .secondary-navigation .btn-mobile {
+        font-size: 12px;
+        float: right;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .secondary-navigation .btn-mobile-store {
+        font-size: 12px;
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .secondary-navigation .topnav {
+        overflow: hidden;
+        margin-bottom: 15px
+    }
+
+    .secondary-navigation .topnav a {
+        font-family: "Noto Sans";
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 60px;
+        display: block;
+        -moz-box-sizing: border-box;
+        height: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 20px
+    }
+
+    .secondary-navigation .accordion {
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: 0;
+        font-size: 15px;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        outline: 0 !important;
+        height: 70px;
+        margin-bottom: 4px;
+        padding: 9px
+    }
+
+    .secondary-navigation .arrowZone {
+        content: "";
+        background-image: url(../images/icons/caret-up.svg);
+        background-repeat: no-repeat;
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        color: #36b030;
+        font-weight: 700;
+        height: 14px;
+        width: 15px;
+        position: absolute;
+        top: 120px;
+        left: 7.8em;
+        margin-right: 15px
+    }
+
+    .secondary-navigation .active {
+        background-image: url(../images/icons/caret-up.svg);
+        background-repeat: no-repeat;
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+        top: 120px;
+    }
+
+    .secondary-navigation .arrowZoneScroll {
+        top: 26px !important
+    }
+
+    .secondary-navigation .activeScroll {
+        top: 31px !important
+    }
+
+    .secondary-navigation .panel {
+        background-color: #f8f5f4;
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height .2s ease-out;
+        -o-transition: max-height .2s ease-out;
+        transition: max-height .2s ease-out
+    }
+
+    .secondary-navigation .container {
+        max-width: 100%;
+        padding-right: 2px !important;
+        padding-left: 1px !important
+    }
+
+    .secondary-navigation .earth-logo {
+        background-size: 90px 50px;
+        width: 90px;
+        padding: 21px
+    }
+
+    .secondary-navigation .dungeons-logo {
+        background-size: 90px 50px;
+        width: 90px !important;
+        padding: 21px
+    }
+
+    .secondary-navigation .minecraft-logo {
+        background-size: 90px 50px;
+        width: 90px !important;
+        margin-top: 0 !important;
+        padding: 22px
+    }
+
+    .secondary-navigation .realms-logo {
+        padding: 14px;
+        margin-top: 16px !important
+    }
+
+    .secondary-navigation .realmsplus-logo {
+        padding: 14px;
+        margin-top: 15px !important
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .secondary-navigation .wrapper {
+        display: none
+    }
+
+    .secondary-navigation .hidden-sm {
+        display: block
+    }
+
+    .secondary-navigation .fixed-header {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 9
+    }
+
+    .secondary-navigation .mr-20 {
+        margin: 0 !important
+    }
+
+    .secondary-navigation .game-mobile-logo {
+        height: 19.75px;
+        width: 125px;
+        margin-top: 4px;
+        margin-bottom: 15px
+    }
+
+    .secondary-navigation .btn-mobile {
+        font-size: 14px;
+        float: right;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .secondary-navigation .btn-mobile-store {
+        font-size: 14px;
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .secondary-navigation .topnav {
+        overflow: hidden;
+        margin-bottom: 15px
+    }
+
+    .secondary-navigation .topnav a {
+        font-family: "Noto Sans";
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 60px;
+        display: block;
+        -moz-box-sizing: border-box;
+        height: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 20px
+    }
+
+    .secondary-navigation .accordion {
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: 0;
+        font-size: 15px;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        outline: 0 !important;
+        height: 70px;
+        margin-bottom: 4px;
+        padding: 9px
+    }
+
+    .secondary-navigation .arrowZone {
+        content: "";
+        background-image: url(../images/icons/caret-up.svg);
+        background-repeat: no-repeat;
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        color: #36b030;
+        font-weight: 700;
+        height: 14px;
+        width: 16px;
+        position: absolute;
+        top: 120px;
+        left: 11.5em;
+        margin-right: 20px
+    }
+
+    .secondary-navigation .active {
+        background-image: url(../images/icons/caret-up.svg);
+        background-repeat: no-repeat;
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+        top: 120px
+    }
+
+    .secondary-navigation .arrowZoneScroll {
+        top: 27px !important
+    }
+
+    .secondary-navigation .activeScroll {
+        top: 32px !important
+    }
+
+    .secondary-navigation .panel {
+        background-color: #f8f5f4;
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height .2s ease-out;
+        -o-transition: max-height .2s ease-out;
+        transition: max-height .2s ease-out
+    }
+
+    .secondary-navigation .earth-logo {
+        background-size: 125px 50px;
+        width: 125px;
+        padding: 29px;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important
+    }
+
+    .secondary-navigation .dungeons-logo {
+        background-size: 125px 50px;
+        width: 125px !important;
+        padding: 21px;
+        margin-top: 2px !important
+    }
+
+    .secondary-navigation .minecraft-logo {
+        background-size: 125px 50px;
+        width: 125px !important;
+        margin-top: 1px !important;
+        padding: 21px
+    }
+
+    .secondary-navigation .realms-logo {
+        padding: 15px;
+        margin-top: 14px !important
+    }
+
+    .secondary-navigation .realmsplus-logo {
+        padding: 17px;
+        margin-top: 10px !important
+    }
+
+    .secondary-navigation .container {
+        max-width: none !important;
+        width: 100%;
+        padding-right: 2px !important
+    }
+}
+
+@media only screen and (max-width: 1199.9px) and (min-width: 768px) {
+    .secondary-navigation .wrapper {
+        display: none
+    }
+
+    .secondary-navigation .fixed-header {
+        position: fixed;
+        top: 87px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 9
+    }
+
+    .secondary-navigation .mr-20 {
+        margin: 0 !important
+    }
+
+    .secondary-navigation .game-mobile-logo {
+        height: 25.75px;
+        width: 150px
+    }
+
+    .secondary-navigation .btn {
+        font-size: 14px;
+        float: right
+    }
+
+    .secondary-navigation .topnav {
+        overflow: hidden
+    }
+
+    .secondary-navigation .hidden-sm {
+        display: none !important
+    }
+
+    .secondary-navigation .topnav a {
+        font-family: "Noto Sans";
+        color: #313131;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 60px;
+        display: block;
+        -moz-box-sizing: border-box;
+        height: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 20px
+    }
+
+    .secondary-navigation .topnav a :hover {
+        background: #fff !important;
+        color: #313131 !important
+    }
+
+    .secondary-navigation .accordion {
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: 0;
+        font-size: 15px;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        outline: 0 !important;
+        margin-bottom: 4px;
+        height: 70px
+    }
+
+    .secondary-navigation .arrowZone {
+        content: "";
+        background-image: url(../images/icons/caret-up.svg);
+        background-repeat: no-repeat;
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        color: #36b030;
+        font-weight: 700;
+        height: 14px;
+        width: 17px;
+        display: inline-block;
+        position: absolute;
+        left: 13.9em;
+        margin-right: 30px
+    }
+
+    .secondary-navigation .mt-10 {
+        margin-top: 10px
+    }
+
+    .secondary-navigation .menu-sm {
+        float: right;
+        margin-top: 18px;
+        margin-right: 30px;
+        text-transform: uppercase;
+        display: block;
+        font-weight: 400 !important
+    }
+
+    .secondary-navigation .active {
+        background-image: url(../images/icons/caret-up.svg);
+        background-repeat: no-repeat;
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+
+    .secondary-navigation .panel {
+        background-color: #f8f5f4;
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height .2s ease-out;
+        -o-transition: max-height .2s ease-out;
+        transition: max-height .2s ease-out
+    }
+
+    .secondary-navigation .earth-logo {
+        background-size: 150px;
+        width: 150px;
+        padding: 29px;
+        margin-top: -1px !important
+    }
+
+    .secondary-navigation .dungeons-logo {
+        background-size: 150px;
+        width: 150px !important;
+        padding: 25px;
+        margin-top: 7px !important
+    }
+
+    .secondary-navigation .minecraft-logo {
+        background-size: 150px;
+        width: 150px !important;
+        padding: 29px;
+        background-position: 0 15px
+    }
+
+    .secondary-navigation .realms-logo {
+        padding: 19px;
+        margin-top: 8px
+    }
+
+    .secondary-navigation .realmsplus-logo {
+        padding: 20px;
+        margin-top: 8px
+    }
+
+    .secondary-navigation .container {
+        max-width: none !important;
+        width: 100%;
+        padding-right: 2px !important
+    }
+}
+
+@media only screen and (min-width: 1024px) and (min-width: 1200px) {
+    .secondary-navigation .secondary-navigation .fixed-header {
+        top: 82px
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.99px) {
+    .secondary-navigation .arrowZone {
+        top: 170px
+    }
+
+    .secondary-navigation .active {
+        top: 170px
+    }
+
+    .secondary-navigation .arrowZoneScroll {
+        top: 31px !important
+    }
+
+    .secondary-navigation .activeScroll {
+        top: 35px !important
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .secondary-navigation .arrowZone {
+        top: 150px;
+    }
+
+    .secondary-navigation .active {
+        top: 150px
+    }
+
+    .secondary-navigation .arrowZoneScroll {
+        top: 31px !important
+    }
+
+    .secondary-navigation .activeScroll {
+        top: 35px !important
+    }
+}
+
+@media only screen and (max-width: 1199.9px) and (min-width: 992px) {
+    .secondary-navigation .fixed-header {
+        top: 110px !important
+    }
+}
+
+@media only screen and (max-width: 767.9px) {
+    .secondary-navigation .arrow-menu-view {
+        display: block
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .secondary-navigation .arrow-menu-view {
+        display: none
+    }
+}
+
+.secondary-navigation .productDetailsComp {
+    background-color: #fff
+}
+
+.secondary-navigation .productDetailsComp a.btn.btn-lg {
+    padding: 0
+}
+
+.secondary-navigation a.btn.btn-lg:active, .secondary-navigation a.btn.btn-lg:focus {
+    -webkit-box-shadow: 0 0 0 .1rem rgba(0, 123, 255, .25);
+    box-shadow: 0 0 0 .1rem rgba(0, 123, 255, .25)
+}
+
+.secondary-navigation .hovereffect.btn-primary {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700
+}
+
+.secondary-navigation .product-hero a.btn {
+    letter-spacing: 1px
+}
+
+.secondary-navigation .product-hero {
+    padding-top: 101px;
+    padding-bottom: 96px
+}
+
+.secondary-navigation #product-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    z-index: 101
+}
+
+.secondary-navigation .product-hero .picture_block img {
+    padding-top: 5px
+}
+
+.secondary-navigation .product-hero a.btn.btn-lg {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    padding-bottom: 3px;
+    text-decoration: underline;
+    font-weight: 400
+}
+
+.secondary-navigation .product-hero a.btn.btn-lg span, .secondary-navigation .product-hero p {
+    font-size: 15px
+}
+
+.secondary-navigation .product-hero .ratingwrapper p.rating span {
+    position: relative;
+    display: inline-block
+}
+
+.secondary-navigation .product-hero .ratingwrapper p.rating span span {
+    font-size: 18px;
+    color: #313131
+}
+
+.secondary-navigation .product-hero .ratingwrapper p.rating span span:nth-child(2) {
+    color: rgba(255, 255, 26, .8);
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden
+}
+
+.secondary-navigation .product-hero .categorylink {
+    font-size: 16px;
+    color: #9d9d9d;
+    padding-top: 1px
+}
+
+.secondary-navigation .product-hero .categorylink p {
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 9px
+}
+
+.secondary-navigation .product-hero .ratingwrapper .rating {
+    margin-right: 82px
+}
+
+.secondary-navigation .product-hero .ratingwrapper p {
+    margin-bottom: 9px
+}
+
+.secondary-navigation .product-hero .ratingwrapper p:last-child {
+    padding-top: 7px
+}
+
+.secondary-navigation .product-hero .ratingwrapper p:last-child .logo {
+    margin-left: 4px;
+    padding: 0;
+    float: none;
+    display: inline !important
+}
+
+.secondary-navigation .product-hero .ratingwrapper .rating > span:last-child, .secondary-navigation .product-hero .ratingwrapper p:last-child {
+    font-size: 12px
+}
+
+.secondary-navigation .product-hero a:hover {
+    color: #000;
+    text-decoration: none
+}
+
+.secondary-navigation .product-hero .content-wrapper .feature-heading {
+    margin-bottom: 3px;
+    font-size: 1.75rem
+}
+
+.secondary-navigation .product-hero .content-wrapper div.description {
+    margin-bottom: 15px;
+    white-space: pre-line
+}
+
+.secondary-navigation .product-hero .content-wrapper .get-item div {
+    display: inline-block;
+    vertical-align: top
+}
+
+.secondary-navigation .product-hero .content-wrapper .get-item div:first-child {
+    padding-right: 18px
+}
+
+.secondary-navigation .product-hero .content-wrapper .get-item div:first-child a {
+    padding: 16px 1.5rem
+}
+
+.secondary-navigation .product-hero .content-wrapper .get-item .ctaclass a {
+    display: table;
+    text-align: left;
+    text-transform: none
+}
+
+.secondary-navigation .product-hero btn-success {
+    color: #fff;
+    float: left
+}
+
+.secondary-navigation .product-hero .categorylink, .secondary-navigation .product-hero .ratingwrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.secondary-navigation .product-hero .btn.btn-success {
+    float: left;
+    margin-right: 30px
+}
+
+.secondary-navigation .product-hero .social-share .btn.btn-success {
+    margin-right: 12px;
+    border: none;
+    padding: 0
+}
+
+.secondary-navigation .product-hero .social-share .btn.btn-success:last-child {
+    margin-right: 0
+}
+
+.secondary-navigation .product-hero .social-share p {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700
+}
+
+.secondary-navigation .product-hero .btn.btn-success span {
+    font-size: 14px
+}
+
+.secondary-navigation .product-hero .logo img {
+    width: 20px !important;
+    height: 20px;
+    vertical-align: middle
+}
+
+.secondary-navigation .product-hero .social-share {
+    position: relative
+}
+
+.secondary-navigation .more-like {
+    padding-bottom: 52px
+}
+
+.secondary-navigation .more-link-pdp {
+    display: none
+}
+
+.secondary-navigation .catalog-list {
+    padding-top: 11px;
+    padding-bottom: 40px
+}
+
+.secondary-navigation .bundle-list.catalog-list {
+    padding: 0
+}
+
+.secondary-navigation .bundle-list.catalog-list .catalog-item {
+    padding-top: 40px
+}
+
+.secondary-navigation .catalog-list .catalog-item a {
+    color: #313131;
+    display: inline-block
+}
+
+.secondary-navigation .catalog-list .catalog-item a:hover {
+    text-decoration: none
+}
+
+.secondary-navigation .catalog-list .catalog-item a:hover h4, .secondary-navigation .catalog-list .catalog-item a:hover p.creator {
+    text-decoration: underline
+}
+
+.secondary-navigation .catalog-list .catalog-item a > img {
+    border: 1px solid #d6d6d6
+}
+
+.secondary-navigation .catalog-list .catalog-item h4 {
+    padding-top: 11px
+}
+
+.secondary-navigation .catalog-list .catalog-item h4, .secondary-navigation .catalog-list .catalog-item p {
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0
+}
+
+.secondary-navigation .catalog-list .catalog-item p.price {
+    padding-top: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400
+}
+
+.secondary-navigation .catalog-list .catalog-item p.price span img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle
+}
+
+.secondary-navigation .catalog-list .catalog-item p.rating {
+    position: relative;
+    display: inline-block;
+    padding-top: 1px
+}
+
+.secondary-navigation .catalog-list .catalog-item p.rating span {
+    font-size: 18px;
+    color: rgba(49, 49, 49, .2)
+}
+
+.secondary-navigation .catalog-list .catalog-item p.rating span:last-child {
+    color: #313131;
+    top: 1px;
+    left: 0;
+    position: absolute;
+    overflow: hidden
+}
+
+.secondary-navigation .image-drag .row {
+    margin: 0
+}
+
+.secondary-navigation .image-drag .image-container {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer
+}
+
+.secondary-navigation .image-drag .image-container.has-opacaity::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, .35);
+    content: ""
+}
+
+.secondary-navigation #image-container, .secondary-navigation .image-drag .image-container img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.secondary-navigation .image-drag .drag-image {
+    width: auto
+}
+
+.secondary-navigation #drag-image {
+    height: 303px;
+    left: 0;
+    pointer-events: none;
+    position: relative;
+    top: 0;
+    -moz-user-select: none
+}
+
+.secondary-navigation .image-drag .absolute-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 90%;
+    z-index: 1
+}
+
+.secondary-navigation .image-drag .absolute-content img {
+    width: 30px;
+    height: 32px;
+    padding-top: 1px
+}
+
+.secondary-navigation .product-hero .social-share > div {
+    position: absolute;
+    top: 47px;
+    left: 0
+}
+
+.secondary-navigation .more-like {
+    padding-top: 93px
+}
+
+.secondary-navigation .slider {
+    display: none
+}
+
+.secondary-navigation .slider.slick-initialized {
+    display: block
+}
+
+.secondary-navigation .slick-carousal .slick-slide {
+    margin: 0 60px;
+    max-width: 540px
+}
+
+.secondary-navigation .slick-carousal svg.pixel-arrow-left, .secondary-navigation .slick-carousal svg.pixel-arrow-right {
+    fill: currentColor
+}
+
+.secondary-navigation .slick-carousal .hovereffect.btn-primary {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px
+}
+
+.secondary-navigation .slick-carousal .slick-arrow.btn {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+    position: absolute !important
+}
+
+.secondary-navigation .slick-carousal .slick-prev {
+    left: calc(50% - 357px)
+}
+
+.secondary-navigation .slick-carousal .slick-next {
+    right: calc(50% - 357px)
+}
+
+.secondary-navigation .slick-carousal .svg-icon {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 16px 16px;
+    font-size: 16px
+}
+
+.secondary-navigation .slick-carousal .hovereffect {
+    padding: 0
+}
+
+.secondary-navigation .slick-carousal .btn-square {
+    width: 3rem;
+    height: 3rem;
+    padding: unset
+}
+
+.secondary-navigation .bannerpanel {
+    padding-top: 35px;
+    padding-bottom: 25px
+}
+
+.secondary-navigation .WhatsIncluded, .secondary-navigation .bannerpanel.checkoutpanel:first-child {
+    padding-top: 90px
+}
+
+.secondary-navigation .bannerpanel .heading_block h2 {
+    padding-top: 0
+}
+
+.secondary-navigation .bannerpanel p, .secondary-navigation .interstitialpanel .content-wrapper p, .secondary-navigation .interstitialpanel a.btn.btn-lg {
+    font-family: "Noto Sans", sans-serif
+}
+
+.secondary-navigation .interstitialpanel {
+    padding-bottom: 40px !important
+}
+
+.secondary-navigation .interstitialpanel .icon-contentwrapper {
+    padding-top: 19px
+}
+
+.secondary-navigation .interstitialpanel a.btn.btn-lg {
+    display: table;
+    padding-bottom: 3px
+}
+
+.secondary-navigation .interstitialpanel a span {
+    font-size: 18px;
+    text-transform: none;
+    text-decoration: underline;
+    margin-left: -18px;
+    text-align: left;
+    color: #288123 !important
+}
+
+.secondary-navigation .interstitialpanel .interstitial-linklist .description {
+    margin-bottom: .3rem
+}
+
+.secondary-navigation .interstitialpanel .content-wrapper {
+    padding-bottom: 17px
+}
+
+.secondary-navigation .interstitialpanel .icon-contentwrapper a.search-image {
+    width: 65px !important;
+    height: 65px !important;
+    padding: 0
+}
+
+.secondary-navigation .button.btn.search-image {
+    border: none
+}
+
+@media (min-width: 641px) and (max-width: 991px) {
+    .secondary-navigation .interstitialpanel .icon-contentwrapper a.search-image {
+        width: 60px !important;
+        height: 60px !important
+    }
+
+    .secondary-navigation .product-hero .ctaclass {
+        width: 50%;
+        display: inline-block
+    }
+
+    .secondary-navigation .product-hero .content-wrapper {
+        padding-top: 18px
+    }
+
+    .secondary-navigation .product-hero {
+        padding-top: 48px;
+        padding-bottom: 64px
+    }
+
+    .secondary-navigation .product-hero .social-share > div {
+        left: auto;
+        top: 13px;
+        right: 0
+    }
+
+    .secondary-navigation .catalog-list .catalog-item h4, .secondary-navigation .catalog-list .catalog-item p {
+        font-size: 10px
+    }
+
+    .secondary-navigation .catalog-list .catalog-item p.price span img {
+        width: 16px;
+        height: 16px
+    }
+
+    .secondary-navigation .slick-carousal .slick-slide {
+        margin: 0 45px;
+        max-width: 450px
+    }
+
+    .secondary-navigation .slick-carousal .slick-prev {
+        left: 82px
+    }
+
+    .secondary-navigation .slick-carousal .slick-next {
+        right: 82px
+    }
+
+    .secondary-navigation .more-like {
+        padding-top: 45px;
+        padding-bottom: 2px
+    }
+
+    .secondary-navigation .image-drag .container {
+        padding: 0
+    }
+
+    .secondary-navigation .image-drag .container .row {
+        margin: 0
+    }
+}
+
+@media (min-width: 641px) and (max-width: 767.98px) {
+    .secondary-navigation .container {
+        max-width: none
+    }
+
+    .secondary-navigation .more-link-pdp {
+        display: block
+    }
+
+    .secondary-navigation .category_title {
+        padding-top: 0
+    }
+}
+
+@media (max-width: 640px) {
+    .secondary-navigation .bannerpanel.container {
+        max-width: 540px !important
+    }
+
+    .secondary-navigation .category_title {
+        padding-top: 0
+    }
+
+    .secondary-navigation .product-hero .picture_block img {
+        padding-top: 0
+    }
+
+    .secondary-navigation .interstitialpanel .icon-contentwrapper a.search-image {
+        width: 60px !important;
+        height: 60px !important
+    }
+
+    .secondary-navigation .product-hero {
+        padding-top: 0;
+        padding-bottom: 16px
+    }
+
+    .secondary-navigation .product-hero .rating {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        margin-right: 0
+    }
+
+    .secondary-navigation .product-hero .ratingwrapper p:last-child {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        margin-left: auto
+    }
+
+    .secondary-navigation .product-hero .container {
+        max-width: none;
+        padding: 0
+    }
+
+    .secondary-navigation .product-hero .container .row {
+        margin: 0
+    }
+
+    .secondary-navigation .product-hero .picture_block {
+        padding: 0
+    }
+
+    .secondary-navigation .product-hero br {
+        display: none
+    }
+
+    .secondary-navigation .product-hero .social-share > div {
+        position: relative;
+        top: 37px;
+        width: 100%;
+        max-width: 540px;
+        padding: 0 15px;
+        margin: 0 auto
+    }
+
+    .secondary-navigation .product-hero a.btn.btn-lg {
+        display: inline;
+        width: 100%;
+        padding-left: 0
+    }
+
+    .secondary-navigation .product-hero .content-wrapper {
+        max-width: 540px;
+        padding: 0 15px;
+        margin: 0 auto
+    }
+
+    .secondary-navigation .product-hero .content-wrapper .get-item div, .secondary-navigation .product-hero .content-wrapper .get-item div:first-child a {
+        display: block
+    }
+
+    .secondary-navigation .product-hero .content-wrapper .get-item div:first-child {
+        padding-right: 0
+    }
+
+    .secondary-navigation .product-hero .content-wrapper .get-item .ctaclass a {
+        display: inline;
+        margin-right: 25px
+    }
+
+    .secondary-navigation .product-hero .content-wrapper .ctaclass {
+        padding-top: 10px
+    }
+
+    .secondary-navigation .product-hero .content-wrapper .ctaclass br {
+        display: block
+    }
+
+    .secondary-navigation .product-hero .feature-heading {
+        padding-top: 41px
+    }
+
+    .secondary-navigation .slider {
+        max-width: 510px;
+        margin: 0 auto
+    }
+
+    .secondary-navigation .slick-carousal .slick-slide {
+        margin: 0 0;
+        max-width: 510px
+    }
+
+    .secondary-navigation .slick-carousal .slick-prev {
+        left: 0
+    }
+
+    .secondary-navigation .slick-carousal .slick-next {
+        right: 0
+    }
+
+    .secondary-navigation .slick-carousal .slick-wrapper {
+        padding-left: 15px !important;
+        padding-right: 15px !important
+    }
+
+    .secondary-navigation .WhatsIncluded, .secondary-navigation .bannerpanel.checkoutpanel:first-child {
+        padding-top: 62px
+    }
+
+    .secondary-navigation .bannerpanel .heading_block > div {
+        max-width: 100% !important;
+        -webkit-box-flex: unset !important;
+        -ms-flex: unset !important;
+        flex: unset !important
+    }
+
+    .secondary-navigation .bannerpanel .heading_block {
+        text-align: left !important
+    }
+
+    .secondary-navigation .bannerpanel {
+        padding-top: 36px;
+        padding-bottom: 0
+    }
+
+    .secondary-navigation .slickpaddingclass {
+        padding-bottom: 3px
+    }
+
+    .secondary-navigation .image-drag .container {
+        padding: 0;
+        max-width: none
+    }
+
+    .secondary-navigation .image-drag .container .row {
+        margin: 0
+    }
+
+    .secondary-navigation .more-like {
+        padding-bottom: 8px;
+        padding-top: 45px
+    }
+
+    .secondary-navigation .more-like h3 {
+        font-size: 22px
+    }
+
+    .secondary-navigation .more-link-pdp {
+        display: block
+    }
+
+    .secondary-navigation .back-to-catalog {
+        padding: 20px 0 5px 0;
+        display: inline
+    }
+}
+
+@media (max-width: 767px) {
+    .secondary-navigation .catalog-list .catalog-item:nth-child(3), .secondary-navigation .catalog-list .catalog-item:nth-child(4) {
+        display: none !important
+    }
+
+    .secondary-navigation .WhatsIncluded .catalog-list .catalog-item:nth-child(3), .secondary-navigation .WhatsIncluded .catalog-list .catalog-item:nth-child(4) {
+        display: block !important
+    }
+
+    .secondary-navigation .interstitial-linklist div:last-child {
+        padding-left: 30px
+    }
+
+    .secondary-navigation .interstitialpanel .pdp_panelbg {
+        background-repeat: repeat;
+        height: auto
+    }
+
+    .secondary-navigation .icon-contentwrapper a {
+        width: 60px !important;
+        height: 60px !important
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .secondary-navigation .image-drag .container {
+        padding: 0 15px !important
+    }
+
+    .secondary-navigation .interstitial-linklist div:first-child, .secondary-navigation .interstitialpanel .content-wrapper {
+        padding-left: 46px
+    }
+
+    .secondary-navigation .interstitial-linklist div:last-child {
+        margin-left: 30px
+    }
+
+    .secondary-navigation .icon-contentwrapper a {
+        width: 60px !important;
+        height: 60px !important
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .secondary-navigation .product-hero .content-wrapper .get-item div.ctaclass {
+        padding-top: 10px
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .secondary-navigation .product-hero .picture_block img {
+        padding-top: 0
+    }
+
+    .secondary-navigation .image-drag .container {
+        max-width: none;
+        padding: 0 !important
+    }
+}
+
+@media (max-width: 576px) {
+    .secondary-navigation .product-hero .ratingwrapper .rating {
+        margin-right: 40px
+    }
+
+    .secondary-navigation .product-hero .categorylink {
+        display: block
+    }
+
+    .secondary-navigation .product-hero .content-wrapper {
+        padding: 0
+    }
+
+    .secondary-navigation .product-hero .social-share > div {
+        padding: 0
+    }
+
+    .secondary-navigation .interstitialpanel .content-wrapper {
+        padding-top: 20px
+    }
+
+    .secondary-navigation .interstitial-linklist div {
+        text-align: center
+    }
+
+    .secondary-navigation .interstitialpanel a.btn.btn-lg {
+        display: table;
+        margin: 0 auto
+    }
+
+    .secondary-navigation .icon-contentwrapper a {
+        width: 48px !important;
+        height: 48px !important
+    }
+
+    .secondary-navigation .catalog-list .catalog-item:nth-child(1) {
+        padding-bottom: 40px
+    }
+
+    .secondary-navigation .bundle-list.catalog-list .catalog-item:nth-child(1) {
+        padding-bottom: 0
+    }
+
+    .secondary-navigation .bundle-list.catalog-list .catalog-item {
+        padding-top: 40px
+    }
+}
+
+@media (max-width: 375px) {
+    .secondary-navigation .product-hero .ratingwrapper {
+        display: block
+    }
+
+    .secondary-navigation .product-hero .ctaclass a.btn.btn-lg span {
+        margin-right: 0;
+        font-size: 12px
+    }
+}
+
+.secondary-navigation .macpop p {
+    font-size: 22px !important
+}
+
+.secondary-navigation .macpop h6 {
+    font-size: 22px !important
+}

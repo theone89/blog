@@ -1,0 +1,282 @@
+/*=========================================*/
+/*============| Button Type 2 |============*/
+/*=========================================*/
+.btn-type2 {
+    border: 0;
+    z-index: 1;
+    padding: 0.75em 4em;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+.btn-type2:hover {
+    background-color: #313131;
+    border-left-color: #151515;
+    border-right-color: #151515;
+    text-shadow: 0 2px 0 #000;
+}
+.btn-type2:hover:before {
+    border-top-color: #4d4d4d;
+}
+.btn-type2:hover:after {
+    border-bottom-color: #151515;
+}
+a.btn-type2 {
+    color: #fff;
+    text-decoration: none;
+}
+.btn-type2-small {
+    padding: 0.25em 2em;
+}
+.btn-type2-block {
+    width: 100%;
+}
+.btn-type2:before, .btn-type2:after {
+    width: 100%;
+    height: 5px;
+    left: 0;
+}
+.btn-type2:before {
+    content: ' ';
+    border: 0;
+    display: flex;
+    position: absolute;
+    transform: translateY(-5px);
+    top: 0;
+}
+.btn-type2:after {
+    content: ' ';
+    border: 0;
+    display: flex;
+    position: absolute;
+    transform: translateY(5px);
+    bottom: 0;
+}
+/*======| Button Type Success |======*/
+.btn-type2-success {
+    background-color: #009f46;
+    border-left:5px solid #007a3d;
+    border-right:5px solid #007a3d;
+}
+.btn-type2-success:before {
+    border-top: 5px solid #00e73d;
+}
+.btn-type2-success:after {
+    border-bottom: 5px solid #00552a;
+}
+/*======| Button Type Danger |======*/
+.btn-type2-danger {
+    background-color: #ef1e42;
+    border-left:5px solid #cb2346;
+    border-right:5px solid #cb2346;
+}
+.btn-type2-danger:before {
+    border-top: 5px solid #ff3a62;
+}
+.btn-type2-danger:after {
+    border-bottom: 5px solid #cb2346;
+}
+/*======| Button Type Warning |======*/
+.btn-type2-warning {
+    background-color: #ffb054;
+    border-left:5px solid #df8827;
+    border-right:5px solid #df8827;
+}
+.btn-type2-warning:before {
+    border-top: 5px solid #e1a64f;
+}
+.btn-type2-warning:after {
+    border-bottom: 5px solid #df8827;
+}
+/*======| Button Type Info |======*/
+.btn-type2-info {
+    background-color: #5caee0;
+    border-left:5px solid #407a9d;
+    border-right:5px solid #407a9d;
+    color: #1d1e1e;
+}
+a.btn-type2-info {
+    color: #1d1e1e;
+    text-decoration: none;
+}
+.btn-type2-info:before {
+    border-top: 5px solid #aed6ef;
+}
+.btn-type2-info:after {
+    border-bottom: 5px solid #407a9d;
+}
+/*======| Button Type Dark |======*/
+.btn-type2-dark {
+    background-color: #313131;
+    border-left:5px solid #1a1a1a;
+    border-right:5px solid #1a1a1a;
+}
+.btn-type2-dark:before {
+    border-top: 5px solid #444444;
+}
+.btn-type2-dark:after {
+    border-bottom: 5px solid #1a1a1a;
+}
+/*======| Button Type Liht |======*/
+.btn-type2-light {
+    background-color: #f8f5f4;
+    border-left:5px solid #cdcaca;
+    border-right:5px solid #cdcaca;
+    color: #1d1e1e;
+}
+a.btn-type2-light {
+    color: #1d1e1e;
+    text-decoration: none;
+}
+.btn-type2-light:before {
+    border-top: 5px solid #fffcfb;
+}
+.btn-type2-light:after {
+    border-bottom: 5px solid #cdcaca;
+}
+/*======| Friends container |======*/
+.friend-container {
+    background: url("./images/backgrounds/bg-wool-dark.png");
+    background-size: cover;
+    border-left:5px solid #fffcfb;
+    border-right:5px solid #fffcfb;
+}
+.friend-container:before {
+    border-top: 5px solid #fffcfb;
+}
+.friend-container:after {
+    border-bottom: 5px solid #fffcfb;
+}
+/*======| Code Small on Button |======*/
+.btn-type2 small {
+    border: 0;
+    z-index: 1;
+    padding: 2px 6px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+.btn-type2 small:before, .btn-type2 small:after {
+    width: 100%;
+    height: 3px;
+    left: 0;
+}
+.btn-type2 small:before {
+    content: ' ';
+    border: 0;
+    display: flex;
+    position: absolute;
+    transform: translateY(-3px);
+    top: 0;
+}
+.btn-type2 small:after {
+    content: ' ';
+    border: 0;
+    display: flex;
+    position: absolute;
+    transform: translateY(3px);
+    bottom: 0;
+}
+.btn-type2 small {
+    background-color: #313131;
+    border-left:3px solid #1a1a1a;
+    border-right:3px solid #1a1a1a;
+    color: #fff;
+}
+.btn-type2 small:before {
+    border-top: 3px solid #444444;
+}
+.btn-type2 small:after {
+    border-bottom: 3px solid #1a1a1a;
+}
+.btn-type2-dark small, .friend-container small {
+    background-color: #f8f5f4;
+    border-left:3px solid #cdcaca;
+    border-right:3px solid #cdcaca;
+    color: #1a1a1a;
+}
+.btn-type2-dark small:before, .friend-container small:before {
+    border-top: 3px solid #fffcfb;
+}
+.btn-type2-dark small:after, .friend-container small:after {
+    border-bottom: 3px solid #cdcaca;
+}
+.btn-type2-small small {
+    padding: 0 3px;
+}
+/*==========================================*/
+/*============| Button Hexagon |============*/
+/*==========================================*/
+.btn-hexagon-type2 {
+    border: 0;
+    width: 85px;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+.btn-hexagon-type2:before, .btn-hexagon-type2:after {
+    content: '  ';
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    background-color: #fff;
+}
+.btn-hexagon-type2:before {
+    transform: rotateZ(60deg);
+}
+.btn-hexagon-type2:after {
+    transform: rotateZ(-60deg);
+}
+.btn-hexagon-type2 small {
+    width: 100%;
+    display: block;
+}
+.btn-hexagon-type2 b {
+    font-size: 20px;
+}
+/*==============================================*/
+/*============| Item Box Container |============*/
+/*==============================================*/
+.item-box-container {
+    border: 4px solid #5a5a5a;
+    width: 70px;
+    height: 70px;
+}
+.item-box-container .item-container {
+    width: 62px;
+    height: 62px;
+    border:3px solid transparent;
+    border-image: linear-gradient(to bottom right, #c66518, black) 1;
+    background: linear-gradient(to bottom right, rgba(198, 101, 24, 0.42), rgba(0, 0, 0, 0.65));
+    position: relative;
+}
+.item-box-container .item-container .item-points {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    color: #fff;
+    font-size: 12px;
+}
+/*==========================================*/
+/*============| Accounts Icons |============*/
+/*==========================================*/
+i.icon-profile {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-top: 8px;
+    margin-left: 8px;
+    opacity: 0.65;
+    cursor: pointer;
+}
+i.icon-shield {
+    background: url("./images/icons/shield.png");
+    background-size: cover;
+}

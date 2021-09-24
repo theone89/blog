@@ -11,6 +11,9 @@ Route::get('category/{category}', [PostController::class, 'category'])->name('po
 
 Route::get('tag/{tag}', [PostController::class, 'tag'])->name('posts.tag');
 
+Route::get('/mineweb', function () {
+    return view('mineweb.index');
+});
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

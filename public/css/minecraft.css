@@ -1,0 +1,124 @@
+/* Webfont: MinecraftSeven */@font-face {
+    font-family: 'MinecraftSeven';
+    src: url('../fonts/MinecraftSeven.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MinecraftSeven.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/MinecraftSeven.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/MinecraftSeven.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/MinecraftSeven.svg#MinecraftSeven') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: MinecraftFive-Bold */
+@font-face {
+    font-family: 'MinecraftFive';
+    src: url('../fonts/MinecraftFive-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MinecraftFive-Boldd41d.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+         url('../fonts/MinecraftFive-Bold.woff') format('woff'), /* Modern Browsers */ 
+         url('../fonts/MinecraftFive-Bold.ttf') format('truetype'), /* Safari, Android, iOS */ 
+         url('../fonts/MinecraftFive-Bold.svg#MinecraftFive-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: MinecraftFive-Regular */
+@font-face {
+    font-family: 'MinecraftFive';
+    src: url('../fonts/MinecraftFive-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MinecraftFive-Regulard41d.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+         url('../fonts/MinecraftFive-Regular.woff') format('woff'), /* Modern Browsers */ 
+         url('../fonts/MinecraftFive-Regular.ttf') format('truetype'), /* Safari, Android, iOS */ 
+         url('../fonts/MinecraftFive-Regular.svg#MinecraftFive-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: MinecraftSeven */
+@font-face {
+    font-family: 'MinecraftSeven';
+    src: url('../fonts/MinecraftSeven.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MinecraftSevend41d.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+         url('../fonts/MinecraftSeven.woff') format('woff'), /* Modern Browsers */ 
+         url('../fonts/MinecraftSeven.ttf') format('truetype'), /* Safari, Android, iOS */ 
+         url('../fonts/MinecraftSeven.svg#MinecraftSeven') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: MinecraftTen */
+@font-face {
+    font-family: 'MinecraftTen';
+    src: url('../fonts/MinecraftTen.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MinecraftTend41d.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+         url('../fonts/MinecraftTen.woff') format('woff'), /* Modern Browsers */ 
+         url('../fonts/MinecraftTen.ttf') format('truetype'), /* Safari, Android, iOS */ 
+         url('../fonts/MinecraftTen.svg#MinecraftTen') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+@font-face {
+    font-family: MinecraftFive;
+    src: url(../fonts/MinecraftFive-Bold.eot);
+    src: url(../fonts/MinecraftFive-Boldd41d.eot#iefix) format("embedded-opentype"), 
+         url(../fonts/MinecraftFive-Bold.woff) format("woff"), 
+         url(../fonts/MinecraftFive-Bold.ttf) format("truetype"), 
+         url(../fonts/MinecraftFive-Bold.svg#MinecraftFive-Bold) format("svg");
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility
+}
+
+@font-face {
+    font-family: MinecraftFive;
+    src: url(../fonts/MinecraftFive-Regular.eot);
+    src: url(../fonts/MinecraftFive-Regulard41d.eot#iefix) format("embedded-opentype"), 
+         url(../fonts/MinecraftFive-Regular.woff) format("woff"), 
+         url(../fonts/MinecraftFive-Regular.ttf) format("truetype"), 
+         url(../fonts/MinecraftFive-Regular.svg#MinecraftFive-Regular) format("svg");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility
+}
+
+@font-face {
+    font-family: MinecraftSeven;
+    src: url(../fonts/MinecraftSeven.eot);
+    src: url(../fonts/MinecraftSevend41d.eot#iefix) format("embedded-opentype"), 
+         url(../fonts/MinecraftSeven.woff) format("woff"), 
+         url(../fonts/MinecraftSeven.ttf) format("truetype"), 
+         url(../fonts/MinecraftSeven.svg#MinecraftSeven) format("svg");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility
+}
+
+@font-face {
+    font-family: MinecraftTen;
+    src: url(../fonts/MinecraftTen.eot);
+    src: url(../fonts/MinecraftTend41d.eot#iefix) format("embedded-opentype"), 
+         url(../fonts/MinecraftTen.woff) format("woff"), 
+         url(../fonts/MinecraftTen.ttf) format("truetype"), 
+         url(../fonts/MinecraftTen.svg#MinecraftTen) format("svg");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility
+}
+
+@font-face {
+    font-family: MinecrafterAltRegular;
+    src: url(../fonts/MinecrafterAltRegular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility
+}
