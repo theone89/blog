@@ -318,7 +318,7 @@
 
         <div class="position-absolute dungeons-logo">
             <div class="w-100">
-                <img src="img/lv.png" style="width: inherit;">
+                <img src="img/coollogo_com-60983045.png" style="width: inherit;">
             </div>
         </div>
 
